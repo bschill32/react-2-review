@@ -1,5 +1,7 @@
 import React from 'react'
 
+// Functional Component
+
 export default function Note(props) {
     //Because we are using a functional component here, we access our props by using props.PROP_NAME and not this.props.PROP_NAME
     return (

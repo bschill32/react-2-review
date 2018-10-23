@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+// Class Component
+
 export default class NewNote extends Component {
     render() {
         // We are in a class here, so we need to access our props off this.props. I don't feel like typing out this.props.PROP_NAME every time I need to access a value in the render fucntion, so I use object destructuring to pull them off onto variables for less typing later
